@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.xttsky" name="XTTSKY" version="21.03.07.0" provider-name="XTTSKY">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.4.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="xttsky.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary>XTTSKY</summary>
+		<description>Turkce kaynakli modul</description>
+		<disclaimer>XTTSKY telif hakki ile korunan hicbir medyayi yayinlamaz.Link vermez. Tum yayinlar muhtelif web sitelerinden alinmaktadir.</disclaimer>
+		<platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>resources/images/Fanartbackground.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
